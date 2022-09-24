@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html>
+<title>Samy Hamdy</title>
+<style>
+  @font-face {
+    font-family: fon1;
+    src: url(fonts/font4.ttf)
+  }
+
+  @font-face {
+    font-family: fon2;
+    src: url(fonts/f6.ttf)
+  }
+
+  .w3-myfont {
+    font-family: "fon1", fon1;
+  }
+
+  .w3-myfont2 {
+    font-family: "fon2", fon2;
+  }
+
+  .sl {
+    cursor: pointer
+  }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="assets/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/w3.css">
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<body>
+
+  <div id="fb-root"></div>
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ar_AR/sdk.js#xfbml=1&version=v2.8&appId=258515394318147";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <header class="w3-container w3-black w3-right-align">
+    <div class="w3-panel w3-black w3-myfont w3-right-align" style="direction:rtl">
+      <p class="w3-xlarge w3-center">
+        <i class="fa fa-quote-right w3-xxlarge xw3-margin-right"></i>
+        "يَا أَيَتُهَا النَفْسُ الْمُطْمَئِنَةُ ارْجِعِي إِلَى رَبِكِ رَاضِيَةً مَرْضِيَةً فَادْخُلِي فِي عِبَادِي
+        وَادْخُلِي جَنَتِي"
+      </p>
+    </div>
+    <p class="w3-center w3-large" style="direction:rtl">نسألكم خالص الدعاء للمرحوم <a style="lii"
+        href="https://www.facebook.com/samy.hamdy.562">سامي حمدي توفيق</a> ونحتسبه عند الله من الشهداء ❤️‍</p>
+
+  </header>
+
+
+  <div class="w3-container">
+
+
+    <div class="w3-content w3-section" style="max-width:600px;">
+      <img class="mySlides w3-animate-fading" src="images/m2.jpg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="images/m3.jpg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="images/m5.jpg" style="width:100%">
+    </div>
+
+    <div class="w3-container">
+
+
+    </div>
+
+
+    <div class="w3-container ">
+      <div class="w3-panel w3-leftbar w3-border-black" style="background-color:#fafafa">
+        <blockquote class="w3-center">
+          <p class="w3-xxlarge w3-myfont2 w3-opacity"><i>وَنُنَزِلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ
+              لِلْمُؤْمِنِينَ</i></p>
+        </blockquote>
+
+        <audio id="player" autoplay="true" controls preload="none" style="width:100%;background-color:transparent">
+          <source id="audio" type="audio/mpeg" />
+        </audio>
+        <div class="w3-accordion w3-light-grey w3-opacity-min">
+          <button style="direction:rtl" id="quranlst" onclick="Accordion('Accordion1')"
+            class="w3-btn-block w3-right-align w3-large">
+          </button>
+          <div id="Accordion1" class="w3-accordion-content w3-right-align">
+            <a class="sl" data-shk="maher">إذاعة القارئ ماهر المعيقلي</a>
+            <a class="sl" data-shk="ajamy">إذاعة القارئ أحمد العجمي</a>
+            <a class="sl" data-shk="shorim">ذاعة القارئ سعود الشريم </a>
+            <a class="sl" data-shk="dosry">إذاعة القارئ ياسر الدوسري</a>
+            <a class="sl" data-shk="mashary">إذاعة القارئ مشاري العفاسي</a>
+            <a class="sl" data-shk="abdelbaset">إذاعة القارئ عبدالباسط عبدالصمد</a>
+            <a class="sl" data-shk="menshawy">إذاعة القارئ محمد صديق المنشاوي</a>
+            <a class="sl" data-shk="hosary">إذاعة القارئ محمود الحصري</a>
+            <a class="sl" data-shk="ghamdy">إذاعة القارئ سعد الغامدي</a>
+            <a class="sl" data-shk="fares">إذاعة القارئ فارس عباد</a>
+            <a class="sl" data-shk="shatry">إذاعة القارئ شيخ أبو بكر الشاطري</a>
+            <a href="#"></a>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="w3-container w3-section w3-right-align" style="direction:rtl;background-color:#fafafa">
+
+        <div class="w3-panel w3-black w3-myfont w3-right-align" style="direction:rtl" style="background-color:#fafafa">
+          <p class="w3-xlarge w3-center">
+            <i class="fa fa-quote-right w3-xxlarge xw3-margin-right"></i>
+            " إِذَا مَاتَ ابْنُ آدَمَ انْقَطَعَ عَمَلُهُ إِلا مِنْ ثَلاثٍ : مِنْ صَدَقَةٍ جَارِيَةٍ , أَوْ عِلْمٍ
+            يُنْتَفَعُ بِهِ , أَوْ وَلَدٍ صَالِحٍ يَدْعُو لَهُ " .
+          </p>
+        </div>
+
+        <div class="w3-panel w3-rightbar w3-border-black">
+
+          <div class="w3-panel w3-white w3-right-align">
+            <h3>شارك بالدعاء</h3>
+            <p id="doaatxt" class="w3-myfont w3-xlarge w3-center" style="direction:rtl;min-height:50px">
+
+            </p>
+          </div>
+          <button id="doaabtn" class="w3-btn  w3-white w3-border w3-margin fa fa-arrow-circle-left w3-large"></button>
+          <button id="doaa0" class="w3-btn  w3-white w3-border w3-margin fa fa-refresh w3-large"></button>
+
+        </div>
+
+      </div>
+
+      <div class="w3-container w3-section w3-right-align" style="direction:rtl;background-color:#fafafa">
+
+        <div class="w3-panel w3-black w3-myfont w3-right-align" style="direction:rtl">
+          <p class="w3-xlarge w3-center">
+            <i class="fa fa-quote-right w3-xxlarge xw3-margin-right"></i>
+            سلامًا على أرواح عانقت الموت و غفت بلحائف من التراب ربي تجاوز عن سيئاتهم و اغفر لهم و ارحمهم يا ارحم
+            الراحمين ...
+          </p>
+          <p class="w3-xxlarge w3-center">
+            أذكروا موتاكم بدعوة ..
+          </p>
+        </div>
+
+
+        <div class="w3-container w3-center">
+
+          <div class="fb-comments w3-center" data-href="index.html" data-numposts="5">
+          </div>
+          <div class="w3-container w3-black" style="margin-top:30px;width:100%;">
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="w3-row" style="max-width:800px;margin:auto;">
+        <div class="w3-second w3-container w3-card-4">
+          <img class="w3-image" src="images/s2.jpg" style="width:100%">
+        </div>
+        <br>
+        <div class="w3-second w3-container w3-card-4" style="margin-start:20px;">
+          <img class="w3-image" src="images/s1.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-container w3-black w3-opacity-min w3-center" style="margin-top:30px;min-height:40px">
+    <h5 class="w3-large">Samy Hamdy (97 - 2022)</h5>
+  </div>
+</body>
+
+</html>
+
+
+<script>
+  var myIndex = 0;
+  carousel();
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) { myIndex = 1 }
+    x[myIndex - 1].style.display = "block";
+    setTimeout(carousel, 10000); // Change image every 2 seconds
+  }
+  function Accordion(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  $(document).ready(function (e) {
+    Accordion("Accordion1");
+    var quran = {
+      maher: "https://qurango.net/radio/maher_al_meaqli",
+      ajamy: "https://qurango.net/radio/ahmad_alajmy",
+      shorim: "https://qurango.net/radio/saud_alshuraim",
+      dosry: "https://qurango.net/radio/yasser_aldosari",
+      mashary: "https://qurango.net/radio/mishary_alafasi",
+      abdelbaset: "https://qurango.net/radio/abdulbasit_abdulsamad",
+      menshawy: "https://qurango.net/radio/mohammed_siddiq_alminshawi",
+      ghamdy: "https://qurango.net/radio/saad_alghamdi",
+      fares: "https://qurango.net/radio/fares_abbad",
+      shatry: "https://qurango.net/radio/shaik_abu_bakr_al_shatri",
+      hosary: "https://qurango.net/radio/mahmoud_khalil_alhussary"
+    };
+    var audio = $("#player");
+    audio[0].volume = 0.5;
+    play(quran.maher, "إذاعة القارئ ماهر المعيقلي");
+
+    $(".sl").click(function () {
+      var shk = $(this).attr("data-shk")
+      switch (shk) {
+        case "abdelbaset":
+          play(quran.abdelbaset, $(this).text())
+          break;
+        case "ajamy":
+          play(quran.ajamy, $(this).text())
+          break;
+        case "dosry":
+          play(quran.dosry, $(this).text())
+          break;
+        case "fares":
+          play(quran.fares, $(this).text())
+          break;
+        case "ghamdy":
+          play(quran.ghamdy, $(this).text())
+          break;
+        case "hosary":
+          play(quran.hosary, $(this).text())
+          break;
+        case "maher":
+          play(quran.maher, $(this).text())
+          break;
+        case "mashary":
+          play(quran.mashary, $(this).text())
+          break;
+        case "menshawy":
+          play(quran.menshawy, $(this).text())
+          break;
+        case "shatry":
+          play(quran.shatry, $(this).text())
+          break;
+        case "shorim":
+          play(quran.shorim, $(this).text())
+          break;
+        case "sodis":
+          play(quran.sodis, $(this).text())
+          break;
+        default:
+          break;
+      }
+
+    });
+
+
+    var doaa2 = ["اللهم ابدله دارا خيرا من داره واهلا خيرا من اهله وادخله الجنة واعذه من عذاب القبر ومن عذاب النار",
+      "اللـهـم عاملة بما انت اهله ولا تعامله بما هو اهله .",
+      "اللـهـم اجزه عن الاحسان إحسانا وعن الأساءة عفواً وغفراناً.",
+      "اللـهـم إن كان محسناً فزد من حسناته , وإن كان مسيئاً فتجاوز عن سيئاته .",
+      "اللـهـم ادخله الجنة من غير مناقشة حساب ولا سابقة عذاب .",
+      "اللـهـم انسه في وحدته وفي وحشته وفي غربته اللـهـم انزله منزلاً مباركا وانت خير المنزلين .",
+      "اللـهـم انزله منازل الصديقين والشهداء والصالحين وحسن اولئك رفيقا",
+      "اللـهـم اجعل قبره روضة من رياض الجنة ,ولا تجعله حفرة من حفر النار .",
+      "اللـهـم افسح له في قبره مد بصره وافرش قبره من فراش الجنة .",
+      "اللـهـم اعذه من عذاب القبر ,وجاف ِالارض عن جنبيها.",
+      "اللـهـم املأ قبره بالرضا والنور والفسحة والسرور.",
+      "اللـهـم انه كان يشهد أنك لا إله الا انت وأن محمداً عبدك ورسولك وانت اعلم به.",
+      "للـهـم انه نَزَل بك وأنت خير منزول به واصبح فقير الي رحمتك وأنت غني عن عذابه",
+      "اللـهـم اته برحمتك ورضاك وقه فتنه القبر وعذابه و أته برحمتك الامن من عذابك حتي تبعثه إلي جنتك يا أرحم الراحمين .",
+      "اللـهـم انقله من مواطن الدود وضيق اللحود إلي جنات الخلود.",
+      "اللـهـم إرحمه تحت الارض واستره يوم العرض اللـهـم يمن كتابه ويسر حسابه وثقل بالحسنات ميزانه وثبت علي الصراط اقدامه واسكنه في االجنة يا ارحم الراحمين . ",
+      "اللـهـم امنه من فزع يوم القيامة ومن هول يوم القيامة وأجعل نفسه أمنة مطمئنة ولقنه حجته",
+      "اللـهـم اجعله في بطن القبر مطمئن وعند قيام الاشهاد أمن وبجود رضوانك واثق وإلي أعلي درجاتك سابق",
+      "اللـهـم اجعل عن يمينه نوراً حتي تبعثه امنً مطمئن في نور من نورك .",
+      "اللـهـم انظر اليه نظرة رضا فإن من تنظر إليه نظرة رضا لا تعذبه ابداً.",
+      "اللـهـم أسكنه فسيح الجنان واغفر له يارحمن وارحم يارحيم", "اللـهـم إن رحمتك وسعت كل شيء فارحمه رحمة تطمئن بها نفسه وتقر به عينه.",
+      "اللـهـم احشره مع اصحاب اليمين واجعل تحيته سلام لك من أصحاب اليمين اللـهـم اجعله من الذين سعدوا في الجنة",
+      "اللـهـم شفع فيه نبينا ومصطفاك واحشره تحت لوائه واسقه من يده الشريفة شربة هنيئة لا يظمأ بعدها ابداً",
+      "اللـهـم انه كان صائم لك , فأدخله الجنة من باب الريان",
+      "اللـهـم انه كان لكتابك تال وسامع فشفع فيه القران وارحمه من النيران ,واجعله يارحمن يرتقي في الجنة إلي اخر اية قرأها أو سمعها.",
+      "اللـهـم ارزقه بكل حرف في القران حلاوة , وبكل كلمة كرامة وبكل اية سعادة وبكل سورة سلامة وبكل جْزءٍ جَزاءً.",
+      "اللهم ارحمه وارحمنا وارحم موتى المسلميين أجمعين. "
+    ]
+
+
+
+    var doaa = ["اللهم هذا عبدك , ابن عبدك , وابن أمَتك",
+      "وهو في ذمتك وحبل جوارك",
+      "خرج من الدنيا وهو يشهد أن لا إله إلا أنت",
+      "وأن محمدًا عبدك ورسولك",
+      "وأن الجنة حق , وأن النار حق",
+      "وأن البعث حق", "وأن الساعة آتية لا ريب فيها",
+      "وأنك تبعث من في القبور",
+      "وكان قد رضي بالإسلام دينًا",
+      "وبالقرآن إمامًا",
+      "وبالكعبة قِبلةً",
+      "وبالمؤمنين إخوانًا",
+      " فاقبل اللهم شهادتنا له",
+      "وأنت أعلم به منا",
+      "أنت ربه وأنت خلقتَه",
+      "وأنت هديتَه إلى الإسلام",
+      "وأنت قبضتَ روحه",
+      "وأنت أعلم بسرِه وعلانيَته",
+      "اللهم جئنا شفعاء فاغفر له",
+      "اللهم إنه زارك وأنت خير مزور",
+      "وقد أسلم إليك المال والأهل والعشيرة والذنب العظيم",
+      "وهو فقير إلى رحمتك",
+      "وأنت غني عن عذابه",
+      "اللهم إن كان محسنًا, فزد في إحسانه",
+      "وإن كان مسيئًا, فتجاوز عنه وارحمه",
+      "وأعذه من فتنة القبر, وعذاب النار",
+      "اللهم, ثبته بالقول الثابت",
+      "ولقِنْه حجته واجعله في خيرٍ مما كان.",
+      "اللهم جاف القبر عن جنبيه",
+      "وافتح أبواب السماء لروحه",
+      "وأفسح له في قبره ونوِر له فيه",
+      "وألحقه بنبيك صلى الله عليه وسلم وأنت راض عنه",
+      "اللهم, لا تحرمنا أجره, ولا تفتنا بعده يا ارحم الراحمين"
+    ]
+    var i = 0;
+    $("#doaabtn").click(function () {
+      if (i < doaa2.length) {
+        $("#doaatxt").text(doaa2[i]);
+        i++;
+      }
+      else
+        i = 0;
+    });
+
+    $("#doaa0").click(function () { i = 0; $("#doaatxt").text("") });
+
+    function play(src, name) {
+      $("#audio").attr("src", src)
+      audio[0].load();
+      audio[0].play();
+      $("#quranlst").text(">> " + name)
+    }
+
+  });
+</script>
